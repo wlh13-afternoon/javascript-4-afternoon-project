@@ -20,7 +20,13 @@
   
 
 //Code Here
-
+var user = {
+  username: '',
+  email: '',
+  getUsername: function() {
+    return this.username
+  }
+}
 
 
 ////////// PROBLEM 2 //////////
@@ -42,7 +48,7 @@ class Animal {
 }
 
 //Code Here
-
+var animal1 = new Animal('snake')
 
 
 ////////// PROBLEM 3 //////////
@@ -62,7 +68,7 @@ let who = {
 }
 
 //Code Here
-
+var whoSaysHi = sayHi.bind(who)
 
 
 ////////// PROBLEM 4 //////////
